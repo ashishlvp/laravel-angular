@@ -9,6 +9,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './components/register/register.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { SidebarComponent } from './admin/components/includes/sidebar/sidebar.component';
+import { HeaderComponent } from './admin/components/includes/header/header.component';
+import { FooterComponent } from './admin/components/includes/footer/footer.component';
+import { DashboardComponent } from './admin/components/dashboard/dashboard.component';
 
 
 
@@ -18,7 +22,11 @@ import { ProfileComponent } from './components/profile/profile.component';
     NavbarComponent,
     LoginComponent,
     RegisterComponent,
-    ProfileComponent
+    ProfileComponent,
+    SidebarComponent,
+    HeaderComponent,
+    FooterComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
